@@ -1,0 +1,38 @@
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px;
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+    svg {
+      fill: var(--white);
+      height: 37px;
+      width: 37px;
+      margin: 0 10px;
+    }
+  }
+  .sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    a {
+      display: flex;
+      align-items: center;
+      height: 50px;
+      margin: 0 10px;
+      padding: 5px 10px;
+      border-radius: 50vh;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover {
+        background-color: var(--unrecognizable-white);
+      }
+    }
+  }
+}

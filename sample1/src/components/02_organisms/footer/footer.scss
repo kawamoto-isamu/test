@@ -1,0 +1,35 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+
+  .SNS {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px;
+    a { 
+      * {
+        transition: all 0.2s;
+      }
+      height: 25px;
+      width: 25px;
+      margin: 0 10px;
+      
+      svg {
+        fill: var(--white);
+      }
+      &:hover {
+        svg {
+          fill: var(--deep-white);
+        }
+      }
+    }
+  }
+  .copy {
+    font-size: 12px;
+  }
+}

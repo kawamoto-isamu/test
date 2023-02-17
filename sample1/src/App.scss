@@ -1,0 +1,29 @@
+.app-root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+  .contents {
+    width: 100%;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform:translateX(100%)
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

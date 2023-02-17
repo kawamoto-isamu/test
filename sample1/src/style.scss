@@ -1,0 +1,16 @@
+.app-root {
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+  &:after {
+    width: 100vw;
+    height: 100vh;
+  }
+}

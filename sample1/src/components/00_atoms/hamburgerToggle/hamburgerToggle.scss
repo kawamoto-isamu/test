@@ -1,0 +1,42 @@
+.hamburgerToggle-wrapper {
+  display: flex;
+  height: 60px;
+  width: 60px;
+
+  flex-shrink: 0;
+
+  justify-content: center;
+  align-items: center;
+
+  .ham-lines,
+  .ham-lines:before,
+  .ham-lines:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: var(--white);
+    position: absolute;
+
+    transition: all 0.5s;
+  }
+  .ham-lines:before {
+    bottom: 8px;
+  }
+  .ham-lines:after {
+    top: 8px;
+  }
+
+  .clicked {
+    background-color: rgba(255, 255, 255, 0);
+    &:before {
+      bottom: 0;
+      transform: rotate(45deg);
+    }
+    &:after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
+}
