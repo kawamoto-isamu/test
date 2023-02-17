@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div
       className={'app-root'}
-      // style={{ backgroundImage: `url(${back_1})` }}
     >
       <Header/>
       <div>
