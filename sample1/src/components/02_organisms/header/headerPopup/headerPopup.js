@@ -10,9 +10,9 @@ const HeaderPopup = (props) => {
       popupHandler = {props.popupHandler}
     >
       <div className={'headerPopup-wrapper'}>
-        <a href="/about">ABOUT</a>
-        <a href="/works">WORKS</a>
-        <a href="/floatUpTest">floatUpTest</a>
+        <a href="/">TOP</a>
+        <a href="/plans">PLANS</a>
+        <a href="/contact">CONTACT</a>
       </div>
     </Popup>
 

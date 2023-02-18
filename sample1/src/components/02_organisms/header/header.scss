@@ -7,25 +7,41 @@
   .icon {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: start; 
+    flex-direction: column;
     text-decoration: none;
-    svg {
-      fill: var(--white);
-      height: 37px;
-      width: 37px;
-      margin: 0 10px;
-    }
   }
   .sub {
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center; 
+    .SNS {
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      a { 
+        * {
+          transition: all 0.2s;
+        }
+        height: 25px;
+        width: 25px;
+        margin: 0 10px;
+        
+        svg {
+          fill: var(--black);
+        }
+        &:hover {
+          svg {
+            fill: var(--white);
+          }
+        }
+      }
+    }  
     a {
       display: flex;
       align-items: center;
       height: 50px;
       margin: 0 10px;
-      padding: 5px 10px;
       border-radius: 50vh;
       text-decoration: none;
       cursor: pointer;

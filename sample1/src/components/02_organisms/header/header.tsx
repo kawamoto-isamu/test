@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import I from 'static/img/i'
+import ITwi            from 'static/img/iTwi'
+import IInst           from 'static/img/iInst'
 import HamburgerToggle from 'components/00_atoms/hamburgerToggle/hamburgerToggle'
-import HeaderPopup from './headerPopup/headerPopup'
+import HeaderPopup     from './headerPopup/headerPopup'
 import './header.scss'
 
 const Header = () => {
@@ -22,9 +23,14 @@ const Header = () => {
   return (
     <header className={'header-wrapper'}>
       <a href='/' className='icon'>
-        <I/><h1 className='icon'>CLOSM</h1>
+        <h1 className='icon'>経理代行サービス</h1>
+        <p>Accounting Agency Service</p>
       </a>
       <div className='sub'>
+        <div className='SNS'>
+          <a href="https://twitter.com"><ITwi/></a>
+          <a href="https://www.instagram.com"><IInst/></a>
+        </div>
         <HamburgerToggle
           onClick = {popupHandler}
           isOpen  = {isShown}

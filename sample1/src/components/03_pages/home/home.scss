@@ -1,0 +1,15 @@
+.home-wrapper {
+    .home-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        width: 100%;
+        height: 400px;
+    }
+    .home-contents {
+        .child {
+            margin: 20px;
+        }
+    }
+}

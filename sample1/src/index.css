@@ -11,8 +11,8 @@
 }
 
 * {
-  background: var(--gray);
-  color: var(--white);
+  background: var(--white-hole);
+  color: var(--black);
 }
 
 body {
