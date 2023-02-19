@@ -7,6 +7,7 @@ import Header      from 'components/02_organisms/header/header';
 import Footer      from 'components/02_organisms/footer/footer';
 import Home        from 'components/03_pages/home/home';
 import Plans       from 'components/03_pages/plans/plans';
+import Contact     from 'components/03_pages/contact/contact';
 import './App.scss';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Routes>
             <Route path='/'            element={<Home/>}/>
             <Route path="/plans"       element={<Plans />} />
+            <Route path="/contact"       element={<Contact />} />
           </Routes>
       </div>
       <Footer/>

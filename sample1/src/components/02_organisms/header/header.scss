@@ -10,6 +10,15 @@
     align-items: start; 
     flex-direction: column;
     text-decoration: none;
+    @media screen and (max-width:600px) { 
+      /*　画面サイズが480pxからはここを読み込む　*/
+      h1 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 8px;
+      }
+    }
   }
   .sub {
     display: flex;

@@ -8,8 +8,30 @@
         height: 400px;
     }
     .contact-contents {
-        .child {
-            margin: 20px;
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: auto;
+            max-width: 600px;
+            input, textarea{
+                width: 100%;
+                margin: 10px;
+                background: var(--deep-white);
+            }
+            input {
+                height: 30px;
+                &[type=submit] {
+                    background: lighten(red, 20%);
+                    color: var(--white-hole);
+                }
+            }
+            textarea {
+                height: 300px;
+            }
+
         }
     }
 }
