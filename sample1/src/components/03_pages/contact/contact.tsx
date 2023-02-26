@@ -4,9 +4,9 @@ import './contact.scss'
 
 const Contact = () => {
   const [params, setParams] = useState({
-    from_name: 'test',
-    from_email: 'test@test',
-    message: 'test',
+    from_name: '',
+    from_email: '',
+    message: '',
   })
 
   const onSubmit = async (e : FormEvent<HTMLFormElement>) => {
