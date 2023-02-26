@@ -18,9 +18,6 @@ const Plans = () => {
               <li>月50仕訳まで</li>
               <li>年末整理決済仕訳</li>
             </ul>
-            <p className='annotation'>
-              ※追加10仕訳につき500円追加徴収
-            </p>
           </div>
         </div>
         <div className='card 2'>
@@ -46,6 +43,7 @@ const Plans = () => {
           </div>
           <div className='body'>
             <ul>
+              <li>仕訳数無制限</li>
               <li>会社で経理を雇うイメージ</li>
               <li>明細取得や請求書作成</li>
             </ul>

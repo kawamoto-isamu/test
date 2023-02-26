@@ -28,8 +28,14 @@ const Header = () => {
       </a>
       <div className='sub'>
         <div className='SNS'>
-          <a href="https://twitter.com"><ITwi/></a>
-          <a href="https://www.instagram.com"><IInst/></a>
+          <a 
+            // href="https://twitter.com"
+            href="#"
+            ><ITwi/></a>
+          <a
+            // href="https://www.instagram.com"
+            href="#"
+            ><IInst/></a>
         </div>
         <HamburgerToggle
           onClick = {popupHandler}
