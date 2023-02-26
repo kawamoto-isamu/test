@@ -59,9 +59,8 @@ const Home = () => {
         <div className='child'>
           <h2>お問い合わせ</h2>
           <p>
-            email : xxxxxxxxxx@xxx.com<br />
-            TEL : 000-0000-0000<br />
-            address : OO-AAA-AAA<br />
+            email : hyym.0213@outlook.jp<br />
+            TEL : 080-6102-6374<br />
           </p>
           <a href="/contact">問い合わせフォーム</a>
         </div>
