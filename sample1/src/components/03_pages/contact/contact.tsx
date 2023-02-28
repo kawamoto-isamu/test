@@ -1,4 +1,5 @@
 import React, { FormEvent, useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { init, send } from 'emailjs-com';
 import './contact.scss'
 
@@ -8,6 +9,7 @@ const Contact = () => {
     from_email: '',
     message: '',
   })
+  const navigate = useNavigate()
 
   const onSubmit = async (e : FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -15,13 +17,15 @@ const Contact = () => {
      alert('pushed subimit button')
     try {
       await send(
-        'service_l7rgxvn', 
+        'service_mo56cdi', 
         'template_i7ts2se', 
         params, 
         'LVHASNx_B3Wg6Jkv2'
       )
       console.log('stop')
       alert('sended message!!!')
+      alert('move to top page!!!')
+      navigate('/')
       setParams({
         from_name: '',
         from_email: '',
