@@ -33,6 +33,7 @@ const Contact = () => {
       })
     } catch (error) {
       alert(error)
+      alert('送信に失敗しました、、、時間をおいて再度お試しください')
     }
   }
 
