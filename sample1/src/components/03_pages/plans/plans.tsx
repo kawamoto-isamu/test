@@ -8,7 +8,7 @@ const Plans = () => {
         <h1>PLANS</h1>
       </div>
       <div className='plans-contents'>
-        <div className='card 1'>
+        <div className='card card1'>
           <div className='head'>
             <h3>経理ライトプラン</h3>
             <h4>¥5,000/月</h4>
@@ -20,7 +20,7 @@ const Plans = () => {
             </ul>
           </div>
         </div>
-        <div className='card 2'>
+        <div className='card card2'>
           <div className='head'>
             <h3>経理スタンダードプラン</h3>
             <h4>¥10,000/月</h4>
@@ -36,7 +36,7 @@ const Plans = () => {
             </p>
           </div>
         </div>
-        <div className='card 3'>
+        <div className='card card3'>
           <div className='head'>
             <h3>経理丸ごとプラン</h3>
             <h4>¥30,000~/月</h4>
@@ -53,12 +53,13 @@ const Plans = () => {
           </div>
         </div>
       </div>
-    青色申告決算書・収支内訳書・確定申告の作成や提出はご自身の責任で行って下さい。<br />
-    <br />
-    対象ソフト：freee会計、弥生会計<br />
-    ご契約後の連絡方法：メール<br />
-    (他の方法をご希望の方はご相談下さい)<br />
-
+      <div className='plans-sub'>
+        青色申告決算書・収支内訳書・確定申告の作成や提出はご自身の責任で行って下さい。<br />
+        <br />
+        対象ソフト：freee会計、弥生会計<br />
+        ご契約後の連絡方法：メール<br />
+        (他の方法をご希望の方はご相談下さい)<br />
+      </div>
     </div>
   )
 }

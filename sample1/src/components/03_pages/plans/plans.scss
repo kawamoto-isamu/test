@@ -53,33 +53,22 @@
                     color: var(--unrecognizable-white)
                 }    
             }
-            .wave {
-                // position: absolute;
-                height: 150px;
-                width: 100%;
-                background: #2c3e50;
-                // bottom: 0;
-                &::after, &::before {
-                    content: "";
-                    display: block;
-                    position: absolute;
-                    border-radius: 100% 50%;
-                }
-                &::before {
-                    width: 55%;
-                    height: 109%;
-                    background-color: #fff;
-                    right: -1.5%;
-                    top: 60%;
-                }
-                &::after {
-                    width: 55%;
-                    height: 100%;
-                    background-color: #2c3e50;
-                    left: -1.5%;
-                    top: 40%;                   
-                }
-              }        
         }
+        .card1 {
+            background-color: #869AC2; 
+        }
+        .card2{
+            background-color: #72C2A0; 
+        }
+        .card3{
+            background-color: #C2978F; 
+        }
+
+    }
+    .plans-sub {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 50px 0 0 0;
     }
 }
